@@ -11,9 +11,9 @@ from utils import non_max_suppression
 
 
 # Constant vars
-MODEL_PATH = os.path.join(pathlib.Path(__file__).parent.absolute(), "./best.onnx")
+MODEL_PATH = os.path.join(pathlib.Path(__file__).parent.absolute(), "best.onnx")
 IMG_SIZE = 256
-SAMPLE_IMG = "./frame_001371.jpg"
+SAMPLE_IMG = os.path.join(pathlib.Path(__file__).parent.absolute(), "frame_001371.jpg")
 
 
 @st.cache
