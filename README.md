@@ -4,7 +4,7 @@ A friend of mine (let's call him Carmelo, coz it sounds like watermelon) is ruli
 
 * Watering and putting fertilizer is inefficient, because it doesn't target the right places where water and fertilizer are needed, and these resources are expensive 
 * In early stage, the fruits are vulnerable to insects attacks :<br> <img src="src/insect_attack.jpeg" width="200" height="200" style="display: block; margin-left: auto; margin-right: auto;"/> 
-* When the fruits reached maturity, they receive the visit of unexpected watermelon lovers, the crows, see results of their lovely visits :<br> <img src="src/crows.jpeg" width="150" height="200" style="display: block; margin-left: auto; margin-right: auto;"/> 
+* When the fruits reached maturity, they receive the visit of unexpected watermelon lovers, the crows, see results of their lovely visits :<br> <img src="https://github.com/AlkaSaliss/Pastai/raw/master/src/crows.jpeg" width="150" height="200" style="display: block; margin-left: auto; margin-right: auto;"/> 
 
 
 I thought for a while and came with (the not so special) idea that using machine learning + IoT can help in most of the above problems. For example an object detection computer vision model can help in :
