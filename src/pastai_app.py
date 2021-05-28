@@ -14,7 +14,7 @@ MODEL_PATH = os.path.join(pathlib.Path(__file__).parent.absolute(), "best.onnx")
 IMG_SIZE = 256
 SAMPLE_IMG = os.path.join(pathlib.Path(__file__).parent.absolute(), "sample.gif")
 favicon = Image.open(os.path.join(pathlib.Path(__file__).parent.absolute(), "frame_001371.jpg"))
-st.set_page_config(page_title='Pastai', page_icon="🍉", layout='centered', initial_sidebar_state='auto')
+st.set_page_config(page_title='Pastai', page_icon="🍉", layout='wide', initial_sidebar_state='auto')
 
 
 @st.cache
