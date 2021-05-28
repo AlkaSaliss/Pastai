@@ -58,7 +58,8 @@ def main():
     conf_thres = st.sidebar.slider("Confidence Threshold", min_value=0., max_value=1.0, value=0.25, step=0.05)
     iou_thres = st.sidebar.slider("Intersection Over Uninon Threshold", min_value=0., max_value=1.0, value=0.45, step=0.05)
 
-    st.components.v1.html("""<h1 style="text-align:center; font-family: system-ui;">Pastai : watermelon detection in the wild</h1>""")
+    # st.components.v1.html("""<h1 style="text-align:center; font-family: system-ui;">Pastai : watermelon detection in the wild</h1>""")
+    st.write("# Pastai : watermelon detection in the wild")
     
     st.write("## Gimme a 🍉, I'll give ya bbox 📦! ┌( ಠ‿ಠ )┘")
     st.info("(Disclaimer! bbox = bounding boxes, not bouygues telecom box)")

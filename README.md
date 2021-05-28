@@ -35,3 +35,12 @@ Data being created, I searched for a good object detection model that offers a g
 Check this [Colab notebook](https://colab.research.google.com/github/AlkaSaliss/Pastai/blob/master/notebooks/YOLO_v5_training.ipynb) to see how to train diffent, Yolo v5 models end-to-end, from data download until model evaluation and conversion.
 
 The trained model is deployed on streamlit and can be accessed through [this link](https://share.streamlit.io/alkasaliss/pastai/src/pastai_app.py)
+
+Next steps :
+
+
+* Label new data to:
+    * detect attacked watermelon 
+    * create a segmentation map around the attacked area
+    * count number of healthy/attacked fruits in a given field area
+* Find a way to make the models useful for our friend Carmelo, for example by embedding the app on mobile/Raspberry Pi camera, ...
