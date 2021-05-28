@@ -63,7 +63,7 @@ def main():
     
     st.write("## Gimme a 🍉, I'll give ya bbox 📦! ┌( ಠ‿ಠ )┘")
     st.info("(Disclaimer! bbox = bounding boxes, not bouygues telecom box)")
-    st.info("Waiting for you to upload a 🍉 image")
+    st.info("Waiting for you to upload a 🍉 image below ⬇️⬇️⬇️")
     with st.spinner("Loading the 🍉 detector ..."):
         model = load_model()
     file_uploader = st.file_uploader("", type=["jpg", "png"])
