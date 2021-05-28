@@ -53,7 +53,7 @@ def predict(model, img, conf_thres, iou_thres):
 def main():
 
     st.sidebar.header("Prediction calibration")
-    st.sidebar.write("""First upload an image using the file upload widget on the right. Then, using the below slides, change the bounding boxes 
+    st.sidebar.write("""First upload an image using the file upload widget on the right. Then, using the below sliders, change the bounding boxes 
     prediction thresholds to see how model prediction are changing.
      The lower the thresholds, the more (uncertain) bounding boxes the model will yield.""")
     conf_thres = st.sidebar.slider("Confidence Threshold", min_value=0., max_value=1.0, value=0.25, step=0.05)
